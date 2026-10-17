@@ -6,7 +6,7 @@
 <title>Michael Hewitt</title>
 <meta name="description" content="I sing, I coach, and I create. The purpose of life is to know thyself.">
 <link rel="canonical" href="https://michaelhewitt.com/">
-<meta name="theme-color" content="#FAFAF8">
+<meta name="theme-color" content="#FFFFFF">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Michael Hewitt">
 <meta property="og:title" content="Michael Hewitt">
@@ -19,343 +19,364 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="preload" href="assets/fonts/cormorant-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/jost-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/jost-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Michael Hewitt", "url": "https://michaelhewitt.com/", "sameAs": ["https://www.commandaroom.com", "https://michaelhewitt.substack.com", "https://www.instagram.com/michaelhewitt23/", "https://www.linkedin.com/in/michaelhewitt23/", "https://x.com/MichaelHewitt23"]}</script>
 <style>
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/cormorant-500.woff2') format('woff2')}
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/cormorant-600.woff2') format('woff2')}
-@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url('assets/fonts/cormorant-500-italic.woff2') format('woff2')}
-@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/jost-400.woff2') format('woff2')}
-@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/jost-500.woff2') format('woff2')}
+@font-face{font-family:'Jost';font-style:normal;font-weight:100 900;font-display:swap;src:url('assets/fonts/jost-var.woff2') format('woff2')}
 @font-face{font-family:'Jost';font-style:italic;font-weight:400;font-display:swap;src:url('assets/fonts/jost-400-italic.woff2') format('woff2')}
-@font-face{font-family:'Imbue';font-style:normal;font-weight:700;font-display:swap;src:url('assets/fonts/imbue-700.woff2') format('woff2')}
-body{margin:0;background:#FAFAF8}
-html{scroll-behavior:smooth}
-.q4{--paper:#FAFAF8;--stone:#F0F0EB;--ink:#18201C;--text:#2B312D;--muted:#5B625D;--line:#DCDDD6;--palm:#1F4A3B;--blue:#2B65F3;--serif:'Cormorant Garamond',Garamond,'Times New Roman',serif;--sans:'Jost',Futura,'Century Gothic','Avenir Next',system-ui,sans-serif;--gutter:clamp(20px,5vw,64px);background:var(--paper);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
-:where(.q4) :where(p,ul,ol,h1,h2,h3,figure,blockquote){margin:0}
-:where(.q4) :where(ul,ol){list-style:none;padding:0}
-.q4 a{color:var(--palm);text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:0.22em}
-.q4 a:hover{text-decoration-thickness:2px}
-.q4 :focus-visible{outline:2px solid var(--palm);outline-offset:3px}
-.q4 img{display:block;width:100%;height:auto}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:400 900;font-display:swap;src:url('assets/fonts/bodoni-moda.woff2') format('woff2')}
+@font-face{font-family:'Bodoni Moda';font-style:italic;font-weight:400 900;font-display:swap;src:url('assets/fonts/bodoni-moda-italic.woff2') format('woff2')}
+body{margin:0;background:#FFFFFF}
+html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.lb{--paper:#FFFFFF;--ink:#000000;--graphite:#5E5E5E;--rule:#D4D4D4;--blue:#2B65F3;--sans:'Jost',Futura,'Century Gothic','Avenir Next',system-ui,sans-serif;--serif:'Bodoni Moda','Bodoni 72',Didot,'Times New Roman',serif;--gutter:clamp(20px,4vw,56px);--maxw:1360px;--headh:57px;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+:where(.lb) :where(p,ul,ol,h1,h2,h3,figure,blockquote,hgroup){margin:0}
+:where(.lb) :where(ul,ol){list-style:none;padding:0}
+.lb a{color:inherit;text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:0.22em;transition:color 0.15s ease}
+.lb a:hover,.lb a:active{color:var(--blue)}
+.lb a,.lb summary{-webkit-tap-highlight-color:transparent}
+.lb p > a:only-child{display:inline-block;padding:11px 0;margin:-11px 0}
+.lb :focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.lb ::selection{background:var(--blue);color:#FFFFFF}
+.lb img{display:block;width:100%;height:auto}
 .sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .nb{white-space:nowrap}
 
-.q4-head{position:sticky;top:0;z-index:20;background:rgba(250,250,248,0.95);border-bottom:1px solid var(--line)}
-.q4-headin{max-width:1200px;margin:0 auto;padding:0 var(--gutter);box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px}
-.q4 .q4-mark{font-family:var(--serif);font-weight:600;font-size:clamp(15px,1.3vw,18px);line-height:1;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap;padding:12px 0}
-.q4-nav{display:flex;gap:clamp(16px,2.4vw,36px);font-size:15px;font-weight:500;line-height:1}
-.q4 .q4-nav a{color:var(--ink);text-decoration:none;padding:20px 0}
-.q4 .q4-nav a:hover{color:var(--palm);text-decoration:underline;text-underline-offset:6px}
-.q4-nav .q4-sect{display:none}
+.lb-head{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--ink)}
+.lb-headin{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter);box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px}
+.lb .lb-mark{display:inline-flex;align-items:center;min-height:44px;font-weight:500;font-size:13px;line-height:1;letter-spacing:0.3em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+.lb-nav{display:flex;gap:clamp(18px,2.4vw,34px)}
+.lb .lb-nav a{display:inline-flex;align-items:center;min-width:44px;min-height:56px;font-size:13px;font-weight:500;line-height:1;text-decoration:none}
+.lb .lb-navr a{justify-content:flex-end}
+.lb .lb-nav a:hover{text-decoration:underline;text-underline-offset:6px}
+.lb-navl{display:none}
 
-.q4-hero{--hpt:clamp(36px,7vw,104px);--hpb:clamp(56px,8vw,112px);max-width:1200px;margin:0 auto;padding:var(--hpt) var(--gutter) var(--hpb);box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr);gap:40px}
-.q4-heroimg{margin:0 calc(-1 * var(--gutter)) calc(-1 * var(--hpb))}
-.q4-herotext{display:flex;flex-direction:column;gap:22px}
-.q4-quest{font-family:var(--serif);font-weight:500;font-size:clamp(36px,4.6vw,60px);line-height:1.08;letter-spacing:-0.005em;color:var(--ink);text-wrap:balance}
-.q4-side{max-width:31em;color:var(--muted);text-wrap:pretty}
-.q4-quests{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:540px;margin-top:6px;border:1px solid var(--ink)}
-.q4 .q4-qbtn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:0 6px;color:var(--ink);text-decoration:none;font-family:var(--serif);font-weight:500;font-size:22px;line-height:1;white-space:nowrap;transition:background-color 0.2s ease,color 0.2s ease}
-.q4 .q4-qbtn + .q4-qbtn{border-left:1px solid var(--ink)}
-.q4 .q4-qbtn:hover,.q4 .q4-qbtn:active{background:var(--palm);color:var(--paper)}
-.q4-heroimg img{aspect-ratio:4 / 5;object-fit:cover;object-position:50% 30%}
+.lb-hero{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter);box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr)}
+.lb-herotext{display:flex;flex-direction:column;gap:clamp(40px,4vw,56px);padding:clamp(28px,3.6vw,52px) 0 clamp(32px,3.4vw,48px)}
+.lb-intro{display:flex;flex-direction:column;gap:20px}
+.lb-quest{font-family:var(--serif);font-weight:400;font-size:clamp(30px,3.3vw,48px);line-height:1.12;letter-spacing:-0.01em;max-width:15em;text-wrap:balance}
+.lb-side{max-width:31em;font-size:15px;line-height:1.6;color:var(--graphite);text-wrap:pretty}
+.lb-quests{display:flex;flex-direction:column;align-items:flex-start}
+.lb .lb-q{font-weight:800;font-size:clamp(56px,20vw,120px);line-height:0.82;letter-spacing:-0.02em;text-transform:uppercase;text-decoration:none;color:var(--ink)}
+.lb .lb-q:hover{color:var(--blue)}
+.lb-heroimg{margin:0 calc(-1 * var(--gutter))}
+.lb-heroimg img{aspect-ratio:4 / 5;object-fit:cover;object-position:50% 15%}
 
-.q4-sec{border-top:1px solid var(--line);scroll-margin-top:56px}
-.q4-secin{max-width:1200px;margin:0 auto;padding:clamp(56px,8vw,112px) var(--gutter);box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr);gap:32px}
-.q4-aside{display:flex;flex-direction:column;gap:24px}
-.q4-h2{font-family:var(--serif);font-weight:500;font-size:clamp(40px,4.4vw,56px);line-height:1;letter-spacing:-0.01em;color:var(--ink)}
-.q4-photo img{aspect-ratio:1 / 1;object-fit:cover}
-.q4-photo.is-small{width:66%;margin-left:auto}
-.q4-photo.is-small img{aspect-ratio:4 / 5}
-.q4-reel{--rh:200px;grid-column:1 / -1;width:100vw;margin-left:calc(50% - 50vw);display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--gutter);padding:12px var(--gutter) 4px;box-sizing:border-box;scrollbar-width:none}
-.q4-reel::-webkit-scrollbar{display:none}
-.q4-reel figure{flex:none;scroll-snap-align:start}
-.q4-reel figure:first-child{margin-left:auto}
-.q4-reel figure:last-child{margin-right:auto}
-.q4 .q4-reel img{width:auto;height:var(--rh);object-fit:cover}
-.q4 .q4-reel .r169{aspect-ratio:16 / 9}
-.q4 .q4-reel .r45{aspect-ratio:4 / 5}
-.q4 .q4-reel .r43{aspect-ratio:4 / 3}
-.q4 .q4-reel .r23{aspect-ratio:2 / 3}
-.q4-cap{padding-top:6px;font-size:14px;line-height:1.4;color:var(--muted)}
-.q4-body{display:flex;flex-direction:column;gap:20px;min-width:0;max-width:660px}
-.q4-body p{max-width:36em}
-.q4-block{display:flex;flex-direction:column;gap:16px}
-.q4-block + .q4-block{padding-top:40px;margin-top:20px;border-top:1px solid var(--line)}
-.q4-h3{font-family:var(--serif);font-weight:600;font-size:clamp(26px,2.3vw,32px);line-height:1.1;color:var(--ink);text-wrap:balance}
-.q4-h3.is-sub{padding-top:16px}
-.q4-hg{display:flex;flex-direction:column;gap:6px}
-.q4-what{color:var(--muted)}
-.q4-quote{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(25px,2.3vw,31px);line-height:1.25;color:var(--ink);text-wrap:balance}
-.q4-strong{font-weight:500;color:var(--ink)}
+.lb-sec{scroll-margin-top:var(--headh)}
+.lb-secin{max-width:var(--maxw);margin:0 auto;padding:clamp(72px,9vw,128px) var(--gutter);box-sizing:border-box;display:flex;flex-direction:column;gap:clamp(36px,4.4vw,64px)}
+.lb-h2{font-weight:800;font-size:clamp(44px,6.4vw,92px);line-height:0.88;letter-spacing:-0.025em;text-transform:uppercase}
+.lb-grid{--colgap:clamp(48px,6vw,96px);display:grid;grid-template-columns:minmax(0,1fr);gap:40px}
+.lb-aside{min-width:0;max-width:520px}
+.lb-aside img{aspect-ratio:1 / 1;object-fit:cover}
+.lb-aside.is-wide img{aspect-ratio:auto}
+.lb-body{display:flex;flex-direction:column;gap:22px;min-width:0}
+.lb-body p{max-width:36em}
+.lb-block{display:flex;flex-direction:column;gap:18px}
+.lb-block + .lb-block{margin-top:40px;padding-top:40px;border-top:2px solid var(--ink)}
+.lb-h3{font-weight:700;font-size:clamp(26px,2.4vw,34px);line-height:1.08;letter-spacing:-0.015em;text-wrap:balance}
+.lb-hg{display:flex;flex-direction:column;gap:6px}
+.lb-what{font-size:15px;line-height:1.5;color:var(--graphite)}
+.lb-quote{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(26px,2.4vw,34px);line-height:1.18;text-wrap:balance}
+.lb-strong{font-weight:600}
+.lb-label{font-size:15px;font-weight:600;line-height:1.4;padding-top:8px}
 
-.q4-list{border-top:1px solid var(--line)}
-.q4 .q4-list a{display:grid;grid-template-columns:12px minmax(0,1fr);column-gap:12px;align-items:baseline;padding:9px 0 10px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
-.q4-play{grid-column:1;grid-row:1;align-self:start;display:flex;align-items:center;height:21px;color:var(--palm)}
-.q4-play svg{width:8px;height:auto}
-.q4 .q4-list a:hover .q4-l1{text-decoration:underline;text-underline-offset:0.22em}
-.q4-lt{display:contents}
-.q4-l1{grid-column:2;grid-row:1;font-size:16px;font-weight:500;line-height:1.32}
-.q4-l2{grid-column:2;font-size:14px;line-height:1.4;color:var(--muted)}
-.q4-list.is-cells{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:20px;border-top:0;border-bottom:1px solid var(--line)}
-.q4-list.is-cells li{border-top:1px solid var(--line)}
-.q4 .q4-list.is-cells a{border-bottom:0;padding:8px 0 9px}
+.lb-list{border-top:2px solid var(--ink)}
+.lb .lb-list a{display:grid;grid-template-columns:12px minmax(0,1fr);column-gap:14px;align-items:baseline;min-height:44px;box-sizing:border-box;padding:11px 0 12px;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none}
+.lb .lb-list a:hover{color:var(--blue)}
+.lb .lb-list a:hover .lb-l1{text-decoration:underline;text-underline-offset:0.22em}
+.lb-play{grid-column:1;grid-row:1;align-self:start;display:flex;align-items:center;height:22px}
+.lb-play svg{width:8px;height:auto}
+.lb-lt{display:contents}
+.lb-l1{grid-column:2;grid-row:1;font-size:16px;font-weight:500;line-height:1.35}
+.lb-l2{grid-column:2;font-size:14px;line-height:1.4;color:var(--graphite)}
+.lb-list.is-cells{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+.lb .lb-list.is-cells a{padding:9px 0 10px}
+.lb-list.is-gap{margin-top:12px}
 
-.q4-resume{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:20px;margin-top:8px}
-.q4-resume details{grid-column:1 / -1;grid-row:1;min-width:0}
-.q4-resume summary{display:inline-flex;align-items:center;gap:10px;min-height:48px;font-weight:500;color:var(--ink);cursor:pointer;list-style:none}
-.q4-resume summary::-webkit-details-marker{display:none}
-.q4-resume summary:hover .q4-sum{text-decoration:underline;text-underline-offset:0.22em}
-.q4-plus{flex:none;color:var(--palm);transition:transform 0.2s ease}
-.q4-resume details[open] .q4-plus{transform:rotate(45deg)}
-.q4-resume details[open] > summary{position:sticky;top:56px;z-index:5;display:flex;background:var(--paper);border-bottom:1px solid var(--line)}
-.q4-resume details[open] .q4-closed,.q4-resume details:not([open]) .q4-opened{display:none}
-.q4-pdf{grid-column:2;grid-row:1;align-self:start;line-height:48px;position:relative;z-index:1}
+.lb-resume{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:20px;margin-top:8px}
+.lb-resume details{grid-column:1 / -1;grid-row:1;min-width:0}
+.lb-resume summary{display:inline-flex;align-items:center;gap:10px;min-height:48px;font-weight:600;cursor:pointer;list-style:none}
+.lb-resume summary::-webkit-details-marker{display:none}
+.lb-resume summary:hover,.lb-resume summary:active{color:var(--blue)}
+.lb-resume summary:hover .lb-sum{text-decoration:underline;text-underline-offset:0.22em}
+.lb-plus{flex:none;transition:transform 0.2s ease}
+.lb-resume details[open] .lb-plus{transform:rotate(45deg)}
+.lb-resume details[open] > summary{position:sticky;top:var(--headh);z-index:5;display:flex;background:var(--paper);border-bottom:1px solid var(--rule)}
+.lb-resume details[open] .lb-closed,.lb-resume details:not([open]) .lb-opened{display:none}
+.lb-pdf{grid-column:2;grid-row:1;align-self:start;line-height:48px;position:relative;z-index:1;font-size:15px}
 .mh-cv{display:flex;flex-direction:column;gap:28px;padding:16px 0 8px}
-.mh-cv-h{font-family:var(--serif);font-weight:600;font-size:22px;line-height:1.2;margin:0 0 8px;color:var(--ink)}
+.mh-cv-h{font-weight:700;font-size:18px;line-height:1.2;margin:0 0 8px}
 .mh-cv-t{width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px;line-height:1.5}
 .mh-cv-t td{padding:3px 14px 3px 0;vertical-align:baseline}
-.mh-cv-t td.y{padding-right:0;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
-.mh-cv .dir{font-style:italic;color:var(--muted)}
+.mh-cv-t td.y{padding-right:0;text-align:right;color:var(--graphite);font-variant-numeric:tabular-nums;white-space:nowrap}
+.mh-cv .dir{font-style:italic;color:var(--graphite)}
 .mh-cv-people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 24px;font-size:14.5px;line-height:1.55}
 .mh-cv-skills{font-size:14.5px;line-height:1.6}
 
-.q4-proof{display:flex;flex-direction:column;gap:14px;padding-top:8px}
-.q4-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-width:400px}
-.q4-pair img{aspect-ratio:4 / 5;object-fit:cover}
-.q4-tq{font-family:var(--serif);font-style:italic;font-weight:500;font-size:22px;line-height:1.38;color:var(--ink);padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.q4-who{font-size:15px;color:var(--muted)}
-.q4-vidsh{font-size:15px;font-weight:500;color:var(--ink);padding-top:8px}
-.q4-creds{display:flex;flex-direction:column;gap:2px;font-size:15px;line-height:1.45}
-.q4-workpair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:8px}
-.q4-workpair img{height:clamp(150px,21vw,300px);object-fit:cover}
+.lb-reel{--rh:200px;width:100vw;margin-left:calc(50% - 50vw);display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--gutter);padding:4px var(--gutter);box-sizing:border-box;scrollbar-width:none}
+.lb-reel::-webkit-scrollbar{display:none}
+.lb-reel figure{flex:none;scroll-snap-align:start}
+.lb-reel figure:first-child{margin-left:auto}
+.lb-reel figure:last-child{margin-right:auto}
+.lb .lb-reel img{width:auto;height:var(--rh);object-fit:cover}
+.lb .lb-reel .r169{aspect-ratio:16 / 9}
+.lb .lb-reel .r45{aspect-ratio:4 / 5}
+.lb .lb-reel .r43{aspect-ratio:4 / 3}
+.lb .lb-reel .r23{aspect-ratio:2 / 3}
 
-.q4-statement{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(26px,2.5vw,33px);line-height:1.28;color:var(--ink);text-wrap:pretty}
-.q4-list.is-gap{margin-top:12px}
+.lb-proof{display:flex;flex-direction:column;gap:14px;padding-top:8px}
+.lb-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-width:400px}
+.lb-pair img{aspect-ratio:4 / 5;object-fit:cover}
+.lb-cap{padding-top:6px;font-size:13px;line-height:1.4;color:var(--graphite)}
+.lb-tq{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(21px,1.8vw,24px);line-height:1.38;padding:18px 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.lb-who{font-size:14px;color:var(--graphite)}
+.lb-creds{display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.45}
+.lb-workpair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:8px}
+.lb-workpair img{height:clamp(150px,21vw,300px);object-fit:cover}
 
-.q4-mission{font-family:var(--serif);font-weight:500;font-size:clamp(30px,3.2vw,42px);line-height:1.15;color:var(--ink);text-wrap:balance}
-.q4-house{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(21px,1.9vw,24px);color:var(--muted)}
-.q4-pillars{display:flex;flex-direction:column;gap:16px}
-.q4-pillar{display:grid;grid-template-columns:minmax(0,1fr);gap:2px}
-.q4-pname{font-family:var(--serif);font-weight:600;font-size:clamp(22px,1.9vw,26px);line-height:1.2;color:var(--ink)}
-.q4-isms,.q4-books,.q4-useful{columns:1;column-gap:36px}
-.q4-isms li,.q4-books li,.q4-useful li{break-inside:avoid}
-.q4-isms li{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(20px,1.7vw,22px);line-height:1.3;color:var(--ink);padding-bottom:7px}
-.q4-books li{padding-bottom:8px;line-height:1.3}
-.q4-bt{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(19px,1.6vw,21px);color:var(--ink)}
-.q4-bt .q4-rm{font-style:normal}
-.q4-ba{font-size:14px;color:var(--muted);white-space:nowrap}
-.q4-ba.is-long{white-space:normal}
-.q4-useful li{padding-bottom:5px;font-size:16px;line-height:1.4;color:var(--ink)}
+.lb-statement{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(26px,2.5vw,34px);line-height:1.25;text-wrap:pretty}
+.lb-mission{font-family:var(--serif);font-weight:400;font-size:clamp(32px,3.4vw,50px);line-height:1.1;letter-spacing:-0.01em;text-wrap:balance}
+.lb-house{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(21px,1.9vw,25px);color:var(--graphite)}
+.lb-pillars{border-top:2px solid var(--ink)}
+.lb-pillar{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;padding:16px 0 18px;border-bottom:1px solid var(--rule)}
+.lb-pname{font-family:var(--serif);font-weight:400;font-size:clamp(25px,2.1vw,30px);line-height:1.15}
+.lb-h3.is-sub{padding-top:24px}
+.lb-isms{columns:1;column-gap:40px}
+.lb-isms li{break-inside:avoid}
+.lb-books,.lb-useful{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:clamp(8px,3vw,12px);border-top:2px solid var(--ink)}
+.lb-books li,.lb-useful li{padding:8px 0 9px;border-bottom:1px solid var(--rule);overflow-wrap:break-word}
+.lb-isms li{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(21px,1.8vw,24px);line-height:1.3;padding-bottom:8px}
+.lb-books li{display:flex;flex-direction:column;gap:1px;line-height:1.3}
+.lb-bt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(13px,3.85vw,15px);line-height:1.25}
+.lb-bt .lb-rm{font-style:normal}
+.lb-ba{font-size:12px;line-height:1.35;color:var(--graphite)}
+.lb-useful li{font-size:14px;line-height:1.35}
 
-.q4-wide img{aspect-ratio:4 / 3;object-fit:cover;object-position:72% 40%}
-.q4-wide + .q4-band{border-top:0}
-.q4-band{border-top:1px solid var(--line)}
-.q4-bandin{max-width:1200px;margin:0 auto;padding:clamp(72px,10vw,144px) var(--gutter);box-sizing:border-box}
-.q4-manifesto{max-width:14.2em;margin:0 auto;font-family:'Imbue',var(--serif);font-weight:700;font-size:clamp(30px,calc(21px + 2.29vw),54px);line-height:1.02;letter-spacing:0;text-transform:uppercase;text-align:center;color:var(--blue);text-wrap:pretty}
+.lb-wide img{aspect-ratio:4 / 3;object-fit:cover;object-position:72% 40%}
+.lb-band{background:var(--blue);color:#FFFFFF}
+.lb-band ::selection{background:#FFFFFF;color:var(--blue)}
+.lb-bandin{max-width:var(--maxw);margin:0 auto;padding:clamp(80px,11vw,168px) var(--gutter);box-sizing:border-box}
+.lb-manifesto{max-width:24em;font-weight:800;font-size:clamp(25px,3.4vw,50px);line-height:1.04;letter-spacing:-0.01em;text-transform:uppercase;text-wrap:pretty}
 
-.q4-elsewhere{display:flex;flex-wrap:wrap;gap:2px 22px}
-.q4 .q4-elsewhere a{display:inline-block;padding:6px 0;color:var(--ink);font-weight:500;text-decoration-color:var(--line);text-underline-offset:0.3em}
-.q4 .q4-elsewhere a:hover{color:var(--palm);text-decoration-color:currentColor}
-.q4-email{font-family:var(--serif);font-weight:500;font-size:clamp(26px,2.6vw,36px);line-height:1.2}
-.q4 .q4-email a{color:var(--ink)}
-.q4-signoff{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(22px,2vw,26px);color:var(--ink)}
-.q4-signrow{display:flex;align-items:center;gap:20px;padding-top:12px}
-.q4-laugh{flex:none;width:clamp(112px,12vw,148px)}
-.q4-laugh img{aspect-ratio:4 / 5;object-fit:cover}
-.q4-fine{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-size:14px;color:var(--muted);padding-top:24px;border-top:1px solid var(--line)}
+.lb-email{font-weight:600;font-size:clamp(20px,6.4vw,50px);line-height:1.15;letter-spacing:-0.015em;overflow-wrap:anywhere}
+.lb .lb-email a{text-decoration-thickness:2px;text-underline-offset:0.14em}
+.lb-elsewhere{display:flex;flex-wrap:wrap;gap:2px 24px}
+.lb .lb-elsewhere a{display:inline-block;min-width:44px;padding:11px 0;font-size:15px;font-weight:500;text-decoration-color:var(--rule);text-underline-offset:0.3em}
+.lb .lb-elsewhere a:hover{text-decoration-color:currentColor}
+.lb-signrow{display:flex;align-items:center;gap:20px;padding-top:16px}
+.lb-laugh{flex:none;width:clamp(112px,12vw,148px)}
+.lb-laugh img{aspect-ratio:4 / 5;object-fit:cover}
+.lb-signoff{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(24px,2.2vw,30px)}
+.lb-fine{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-size:13px;color:var(--graphite);padding-top:24px;border-top:1px solid var(--ink)}
+.lb .lb-fine a{display:inline-block;padding:12px 0;margin:-12px 0}
 
 @media (max-width: 640px){
 .mh-cv-t,.mh-cv-t tbody{display:block}
 .mh-cv-t colgroup{display:none}
-.mh-cv-t tr{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;padding:8px 0;border-top:1px solid var(--line)}
+.mh-cv-t tr{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;padding:8px 0;border-top:1px solid var(--rule)}
 .mh-cv-t td{padding:0;grid-column:1}
 .mh-cv-t td.y{grid-column:2;grid-row:1}
-.mh-cv-t td.c{color:var(--muted)}
+.mh-cv-t td.c{color:var(--graphite)}
+}
+@media (min-width: 600px) and (max-width: 959px){
+.lb-heroimg img{aspect-ratio:4 / 3;object-position:50% 18%}
 }
 @media (min-width: 720px){
-.q4-isms,.q4-useful,.q4-books{columns:2}
-.q4-wide img{aspect-ratio:12 / 5}
-.q4-reel{--rh:clamp(180px,18vw,300px)}
-.q4-list:not(.is-cells){display:grid;grid-template-columns:12px fit-content(52%) minmax(0,1fr);column-gap:12px}
-.q4-list:not(.is-cells) li{display:grid;grid-column:1 / -1;grid-template-columns:subgrid}
-.q4 .q4-list:not(.is-cells) a{grid-column:1 / -1;grid-template-columns:subgrid}
-.q4-list:not(.is-cells) .q4-l1{padding-right:24px}
-.q4-list:not(.is-cells) .q4-l2{grid-column:3;grid-row:1;font-size:15px;line-height:1.32}
-.q4-list:not(.is-cells) .q4-lt:not(:has(.q4-l2)) .q4-l1{grid-column:2 / -1}
-.q4-pillar{grid-template-columns:minmax(0,1fr) minmax(0,2.4fr);gap:24px;align-items:baseline}
+.lb-isms{columns:2}
+.lb-books,.lb-useful{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+.lb-books li,.lb-useful li{padding:9px 0 10px}
+.lb-bt{font-size:clamp(19px,1.6vw,21px);line-height:1.3}
+.lb-ba{font-size:13px}
+.lb-useful li{font-size:16px;line-height:1.4}
+.lb-wide img{aspect-ratio:12 / 5}
+.lb-reel{--rh:clamp(180px,20vw,320px)}
+.lb-list:not(.is-cells){display:grid;grid-template-columns:12px fit-content(52%) minmax(0,1fr);column-gap:14px}
+.lb-list:not(.is-cells) li{display:grid;grid-column:1 / -1;grid-template-columns:subgrid}
+.lb .lb-list:not(.is-cells) a{grid-column:1 / -1;grid-template-columns:subgrid}
+.lb-list:not(.is-cells) .lb-l1{padding-right:24px}
+.lb-list:not(.is-cells) .lb-l2{grid-column:3;grid-row:1;font-size:15px;line-height:1.35}
+.lb-list:not(.is-cells) .lb-lt:not(:has(.lb-l2)) .lb-l1{grid-column:2 / -1}
+.lb-pillar{grid-template-columns:minmax(0,1fr) minmax(0,2.4fr);gap:24px;align-items:baseline}
 }
 @media (min-width: 960px){
-.q4-nav .q4-sect{display:inline}
-.q4-hero{grid-template-columns:minmax(0,4fr) minmax(0,7fr);column-gap:clamp(48px,6vw,96px);align-items:center;min-height:clamp(560px,52vw,760px)}
-.q4-heroimg{grid-column:1;grid-row:1;align-self:stretch;margin:calc(-1 * var(--hpt)) 0 calc(-1 * var(--hpb)) calc(-1 * (var(--gutter) + max(0px, (100vw - 1200px) / 2)))}
-.q4-herotext{grid-column:2;grid-row:1}
-.q4-heroimg img{height:100%;aspect-ratio:auto;object-position:50% 25%}
-.q4-secin{--colgap:clamp(48px,6vw,96px);grid-template-columns:minmax(0,4fr) minmax(0,7fr);column-gap:var(--colgap)}
-.q4-secin:has(.q4-resume details[open]) .q4-aside{position:static}
-.q4-resume .mh-cv{box-sizing:border-box;width:calc(11 / 7 * 100% + var(--colgap));margin-left:calc(-4 / 7 * 100% - var(--colgap))}
-.q4-aside{position:sticky;top:96px;align-self:start}
-.q4-photo img{aspect-ratio:4 / 5}
+.lb-headin{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
+.lb-navl{display:flex;grid-column:1;grid-row:1}
+.lb .lb-mark{grid-column:2;grid-row:1;font-size:14px;letter-spacing:0.36em;margin-right:-0.36em}
+.lb-navr{grid-column:3;grid-row:1;justify-self:end}
+.lb-hero{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(32px,4vw,64px);min-height:clamp(600px,51vw,740px)}
+.lb .lb-q{font-size:clamp(96px,10.4vw,156px)}
+.lb-herotext{grid-column:1;grid-row:1;justify-content:space-between}
+.lb-heroimg{grid-column:2;grid-row:1;position:relative;margin:0 calc(-1 * (var(--gutter) + max(0px, (100vw - var(--maxw)) / 2))) 0 0}
+.lb-heroimg img{position:absolute;inset:0;height:100%;aspect-ratio:auto}
+.lb-grid{grid-template-columns:minmax(0,4fr) minmax(0,7fr);column-gap:var(--colgap)}
+.lb-grid > .lb-body{grid-column:2}
+.lb-aside{grid-column:1;grid-row:1;position:sticky;top:96px;align-self:start}
+.lb-grid:has(.lb-resume details[open]) .lb-aside{position:static}
+.lb-aside img{aspect-ratio:4 / 5}
+.lb-email{font-size:clamp(24px,3.4vw,50px)}
+.lb-resume .mh-cv{box-sizing:border-box;width:calc(11 / 7 * 100% + var(--colgap));margin-left:calc(-4 / 7 * 100% - var(--colgap))}
 .mh-cv-people{grid-template-columns:repeat(4,minmax(0,1fr))}
 }
-@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.q4-plus,.q4-play,.q4 .q4-qbtn{transition:none}}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.lb a,.lb-plus{transition:none}}
 </style>
 </head>
 <body>
-<div class="q4">
+<div class="lb">
 
-<header class="q4-head">
-<nav class="q4-headin" aria-label="Site">
-<a class="q4-mark" href="#top">Michael Hewitt</a>
-<div class="q4-nav"><a class="q4-sect" href="#sing">Sing</a><a class="q4-sect" href="#coach">Coach</a><a class="q4-sect" href="#create">Create</a><a href="#contact">Contact</a></div>
+<header class="lb-head">
+<nav class="lb-headin" aria-label="Site">
+<a class="lb-mark" href="#top">Michael Hewitt</a>
+<div class="lb-nav lb-navl"><a href="#sing">Sing</a><a href="#coach">Coach</a><a href="#create">Create</a></div>
+<div class="lb-nav lb-navr"><a href="#contact">Contact</a></div>
 </nav>
 </header>
 
 <main>
-<section id="top" class="q4-hero" aria-labelledby="quest">
-<div class="q4-herotext">
-<h1 id="quest" class="q4-quest"><span class="sr">Michael Hewitt. </span>The purpose of life is to know thyself. That’s the “main <span class="nb">quest.”</span></h1>
-<p class="q4-side">You complete the “main quest” by completing “side quests”: things you’re called toward, ideally free of mimetic influence, through which you gain Specific Knowledge.</p>
-<nav class="q4-quests" aria-label="Side quests">
-<a class="q4-qbtn" href="#sing">I sing</a>
-<a class="q4-qbtn" href="#coach">I coach</a>
-<a class="q4-qbtn" href="#create">I create</a>
+<section id="top" class="lb-hero" aria-labelledby="quest">
+<div class="lb-herotext">
+<div class="lb-intro">
+<h1 id="quest" class="lb-quest"><span class="sr">Michael Hewitt. </span>The purpose of life is to know thyself. That’s the “main <span class="nb">quest.”</span></h1>
+<p class="lb-side">You complete the “main quest” by completing “side quests”: things you’re called toward, ideally free of mimetic influence, through which you gain Specific Knowledge.</p>
+</div>
+<nav class="lb-quests" aria-label="Side quests">
+<a class="lb-q" href="#sing">I sing</a>
+<a class="lb-q" href="#coach">I coach</a>
+<a class="lb-q" href="#create">I create</a>
 </nav>
 </div>
-<figure class="q4-heroimg"><img src="assets/img/arthurs-seat.jpg" alt="Michael Hewitt at sunset on Arthur’s Seat, Edinburgh" width="1000" height="1333" decoding="async" fetchpriority="high"></figure>
+<figure class="lb-heroimg"><img src="assets/img/studio-portrait.jpg" alt="Black-and-white studio portrait of Michael Hewitt in a dark suit and turtleneck" width="1067" height="1600" srcset="assets/img/studio-portrait-400.jpg 400w, assets/img/studio-portrait-800.jpg 800w, assets/img/studio-portrait.jpg 1067w" sizes="(min-width: 960px) 42vw, 100vw" fetchpriority="high" decoding="async"></figure>
 </section>
 
-<section id="sing" class="q4-sec" aria-labelledby="sing-h">
-<div class="q4-secin">
-<div class="q4-aside">
-<h2 id="sing-h" class="q4-h2">I sing</h2>
-</div>
-<div class="q4-body">
+<section id="sing" class="lb-sec" aria-labelledby="sing-h">
+<div class="lb-secin">
+<h2 id="sing-h" class="lb-h2">I sing</h2>
+<div class="lb-grid">
+<figure class="lb-aside is-wide"><img loading="lazy" decoding="async" src="assets/img/stage-at-12.jpg" alt="Michael in a cap, face to face with Melissa in a crown and royal costume" width="1224" height="999" srcset="assets/img/stage-at-12-400.jpg 400w, assets/img/stage-at-12-800.jpg 800w, assets/img/stage-at-12.jpg 1224w" sizes="(min-width: 960px) 31vw, (min-width: 560px) 520px, 100vw"><figcaption class="lb-cap">Onstage at 12, across Melissa Benoist</figcaption></figure>
+<div class="lb-body">
 <p>I’ve been on professional stages since I was 12 years old. I left the stage world during the pandemic when I realized I’d hit all of the goals I’d set for myself, and the shutdown was the excuse my ego could accept for me to leave.</p>
 <p>My primary focus now is on building my practice and serving my clients, but I still train and perform regularly. Let’s be real: If nothing else, I love singing and am obsessed with the voice.</p>
-<p class="q4-strong">Here’s some singing that I’m pleased with from various points in my career:</p>
-<ul class="q4-list">
-<li><a href="https://youtu.be/XNPcwHg8ZiM"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Beethoven 9</span><span class="q4-l2">Ode to Joy</span></span></a></li>
-<li><a href="https://youtu.be/1nTUyjadsPA"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">If Ever I Would Leave You</span><span class="q4-l2">Camelot</span></span></a></li>
-<li><a href="https://youtu.be/cEUlHJqHxg4"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Mache dich, mein Herze, rein</span><span class="q4-l2">Bach, St. Matthew Passion</span></span></a></li>
-<li><a href="https://youtu.be/1mNA480NnII"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Move On</span><span class="q4-l2">Sunday in the Park with George</span></span></a></li>
-<li><a href="https://youtu.be/vqhk2WqRzIM"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Tosca</span><span class="q4-l2">Angelotti excerpts</span></span></a></li>
+<p class="lb-strong">Here’s some singing that I’m pleased with from various points in my career:</p>
+<ul class="lb-list">
+<li><a href="https://youtu.be/XNPcwHg8ZiM"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Beethoven 9</span><span class="lb-l2">Ode to Joy</span></span></a></li>
+<li><a href="https://youtu.be/1nTUyjadsPA"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">If Ever I Would Leave You</span><span class="lb-l2">Camelot</span></span></a></li>
+<li><a href="https://youtu.be/cEUlHJqHxg4"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Mache dich, mein Herze, rein</span><span class="lb-l2">Bach, St. Matthew Passion</span></span></a></li>
+<li><a href="https://youtu.be/1mNA480NnII"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Move On</span><span class="lb-l2">Sunday in the Park with George</span></span></a></li>
+<li><a href="https://youtu.be/vqhk2WqRzIM"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Tosca</span><span class="lb-l2">Angelotti excerpts</span></span></a></li>
 </ul>
-<div class="q4-resume">
+<div class="lb-resume">
 <details>
-<summary><svg class="q4-plus" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M7 1V13M1 7H13" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg><span class="q4-sum"><span class="q4-closed">Full résumé</span><span class="q4-opened">Close the résumé</span></span></summary>
+<summary><svg class="lb-plus" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M7 1V13M1 7H13" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg><span class="lb-sum"><span class="lb-closed">Full résumé</span><span class="lb-opened">Close the résumé</span></span></summary>
 <div class="mh-cv"><div><h3 class="mh-cv-h">Roles</h3><table class="mh-cv-t"><colgroup><col style="width: 21%;"/><col style="width: 26.4%;"/><col style="width: 44.6%;"/><col style="width: 8%;"/></colgroup><tbody><tr><td class="r">Gerard Noir</td><td class="p"><i>Gerard Noir</i></td><td class="c">Edinburgh Fringe Festival</td><td class="y">2023</td></tr><tr><td class="r">Morris Delancey/Darcy</td><td class="p">Disney’s <i>Newsies</i></td><td class="c">Arena Stage <span class="dir">(dir. Molly Smith)</span></td><td class="y">2019</td></tr><tr><td class="r">Don Giovanni</td><td class="p"><i>Don Giovanni</i></td><td class="c">Mediterranean Opera Festival</td><td class="y">2019</td></tr><tr><td class="r">Escamillo</td><td class="p"><i>Carmen</i></td><td class="c">Mediterranean Opera Festival</td><td class="y">2019</td></tr><tr><td class="r">Angelotti</td><td class="p"><i>Tosca</i></td><td class="c">Washington National Opera</td><td class="y">2019</td></tr><tr><td class="r">Baron Douphol</td><td class="p"><i>La Traviata</i></td><td class="c">Washington National Opera</td><td class="y">2018</td></tr><tr><td class="r">Lt. Horstmayer</td><td class="p"><i>Silent Night</i></td><td class="c">The Glimmerglass Festival</td><td class="y">2018</td></tr><tr><td class="r">Diesel</td><td class="p">Robbins’ <i>West Side Story</i></td><td class="c">The Glimmerglass Festival</td><td class="y">2018</td></tr><tr><td class="r">Sam</td><td class="p"><i>Trouble in Tahiti</i></td><td class="c">The Glimmerglass Festival</td><td class="y">2018</td></tr><tr><td class="r">Soloist/Chorus</td><td class="p"><i>Candide</i></td><td class="c">Washington National Opera</td><td class="y">2018</td></tr><tr><td class="r">Jud Fry</td><td class="p"><i>Oklahoma!</i></td><td class="c">The Glimmerglass Festival</td><td class="y">2017</td></tr><tr><td class="r">Edoardo III</td><td class="p"><i>L’assedio di Calais</i></td><td class="c">The Glimmerglass Festival</td><td class="y">2017</td></tr><tr><td class="r">Gianni Schicchi</td><td class="p"><i>Gianni Schicchi</i></td><td class="c">Rice University</td><td class="y">2017</td></tr><tr><td class="r">Somarone</td><td class="p"><i>Béatrice et Bénédict</i></td><td class="c">Aspen Opera Center</td><td class="y">2016</td></tr><tr><td class="r">Bottom</td><td class="p"><i>A Midsummer Night’s Dream</i></td><td class="c">Rice University</td><td class="y">2016</td></tr><tr><td class="r">Alidoro</td><td class="p"><i>La Cenerentola</i></td><td class="c">Music Academy of the West</td><td class="y">2015</td></tr><tr><td class="r">Falstaff</td><td class="p"><i>The Merry Wives of Windsor</i></td><td class="c">Lamont Opera</td><td class="y">2015</td></tr><tr><td class="r">Frank Butler</td><td class="p"><i>Annie Get Your Gun</i></td><td class="c">Lyric Stage</td><td class="y">2015</td></tr><tr><td class="r">Emile de Becque</td><td class="p"><i>South Pacific</i></td><td class="c">Lamont Opera</td><td class="y">2014</td></tr><tr><td class="r">Mustafà</td><td class="p"><i>L’italiana in Algeri</i></td><td class="c">Seagle Music Colony</td><td class="y">2014</td></tr><tr><td class="r">Lancelot</td><td class="p"><i>Camelot</i></td><td class="c">Seagle Music Colony</td><td class="y">2014</td></tr><tr><td class="r">Don Giovanni</td><td class="p"><i>Don Giovanni</i></td><td class="c">Lamont Opera</td><td class="y">2014</td></tr><tr><td class="r">Jud Fry</td><td class="p"><i>Oklahoma!</i></td><td class="c">Lamont Opera</td><td class="y">2013</td></tr><tr><td class="r">Fred Graham</td><td class="p"><i>Kiss Me, Kate</i></td><td class="c">Seagle Music Colony</td><td class="y">2012</td></tr><tr><td class="r">Ensemble</td><td class="p"><i>Guys and Dolls</i></td><td class="c">Barrington Stage <span class="dir">(dir. John Rando)</span></td><td class="y">2011</td></tr><tr><td class="r">Ensemble</td><td class="p"><i>The Game</i></td><td class="c">Barrington Stage <span class="dir">(dir. Julianne Boyd)</span></td><td class="y">2011</td></tr></tbody></table></div><div><h3 class="mh-cv-h">Concert</h3><table class="mh-cv-t"><colgroup><col style="width: 21%;"/><col style="width: 26.4%;"/><col style="width: 44.6%;"/><col style="width: 8%;"/></colgroup><tbody><tr><td class="r">Beethoven</td><td class="p"><i>Symphony No. 9</i></td><td class="c">Columbus Symphony Orchestra</td><td class="y">2022</td></tr><tr><td class="r">Fauré</td><td class="p"><i>Requiem</i></td><td class="c">Apollo Orchestra</td><td class="y">2018</td></tr><tr><td class="r">Bernstein</td><td class="p"><i>Bernstein on Broadway</i></td><td class="c">Orchestre National de Lille</td><td class="y">2017</td></tr><tr><td class="r">Bach</td><td class="p"><i>St. Matthew Passion</i></td><td class="c">Houston Masterworks Chorus</td><td class="y">2017</td></tr><tr><td class="r">Bach</td><td class="p"><i>Magnificat</i></td><td class="c">Texas Master Chorale</td><td class="y">2016</td></tr><tr><td class="r">Bach</td><td class="p"><i>Ein feste Burg</i></td><td class="c">Aspen Chapel Choir</td><td class="y">2016</td></tr><tr><td class="r">Beethoven</td><td class="p"><i>Symphony No. 9</i></td><td class="c">Houston Youth Symphony</td><td class="y">2016</td></tr><tr><td class="r">Mozart</td><td class="p"><i>Requiem</i></td><td class="c">Houston Masterworks Chorus</td><td class="y">2016</td></tr></tbody></table></div><div><h3 class="mh-cv-h">Training</h3><table class="mh-cv-t mh-cv-train"><colgroup><col style="width: 21%;"/><col style="width: 71%;"/><col style="width: 8%;"/></colgroup><tbody><tr><td class="r">Young Artist</td><td class="c">Washington National Opera, Domingo-Cafritz Program</td><td class="y">2017–18</td></tr><tr><td class="r">Young Artist</td><td class="c">Glimmerglass Festival</td><td class="y">2017–18</td></tr><tr><td class="r">Master of Music</td><td class="c">Rice University, Shepherd School of Music<br/><span class="dir">McCollum Fellow; Dorothy K. Brockman Fellow</span></td><td class="y">2017</td></tr><tr><td class="r">Vocal Fellow</td><td class="c">Aspen Opera Center</td><td class="y">2016</td></tr><tr><td class="r">Vocal Fellow</td><td class="c">Music Academy of the West</td><td class="y">2015</td></tr><tr><td class="r">Bachelor of Music</td><td class="c">University of Denver, Lamont School of Music</td><td class="y">2015</td></tr><tr><td class="r">Young Artist</td><td class="c">Houston Grand Opera, Young Artist Vocal Academy</td><td class="y">2014</td></tr><tr><td class="r">Studio Artist</td><td class="c">Chautauqua Opera</td><td class="y">2013</td></tr></tbody></table></div><div class="mh-cv-people"><div><h3 class="mh-cv-h">Coaches</h3><ul class="mh-cv-names"><li>Chris Devlin</li><li>Dennis Giacque</li><li>Bethany Self</li><li>Ken Weiss</li></ul></div><div><h3 class="mh-cv-h">Conductors</h3><ul class="mh-cv-names"><li>Richard Bado</li><li>Joseph Colaneri</li><li>James Lowe</li><li>Speranza Scappucci</li></ul></div><div><h3 class="mh-cv-h">Directors</h3><ul class="mh-cv-names"><li>Edward Berkeley</li><li>Ethan McSweeney</li><li>Molly Smith</li><li>Francesca Zambello</li></ul></div><div><h3 class="mh-cv-h">Teachers</h3><ul class="mh-cv-names"><li>Michael Paul</li><li>Ken Cox</li><li>Dr. Barbara Clark</li><li>Dr. Stephen King</li><li>Neil Shicoff</li></ul></div></div><div><h3 class="mh-cv-h">Special skills</h3><p class="mh-cv-skills">Juggling. Dialects (French, RP, Irish). Conversational Italian. Stage combat (hand-to-hand, hand-and-a-half sword). StrongFirst Elite Instructor (all four instructor certifications held simultaneously). PN2 Master Health Coach (Precision Nutrition). PADI Certified Diver.</p></div></div>
 </details>
-<a class="q4-pdf" href="assets/Hewitt_Resume_Fall_2026.pdf" download="Hewitt_Resume_Fall_2026.pdf">Download the PDF</a>
+<a class="lb-pdf" href="assets/Hewitt_Resume_Fall_2026.pdf" download="Hewitt_Resume_Fall_2026.pdf">Download the PDF</a>
 </div>
 </div>
-<div class="q4-reel" role="group" aria-label="Photos from the stage" tabindex="0">
-<figure><img class="r169" src="assets/img/stage-orchestra.jpg" alt="Michael Hewitt singing in a tuxedo with an orchestra behind him" width="920" height="517" decoding="async" loading="lazy"></figure>
-<figure><img class="r45" src="assets/img/stage-symphony-space.jpg" alt="Michael Hewitt at Symphony Space" width="800" height="1000" decoding="async" loading="lazy"></figure>
-<figure><img class="r43" src="assets/img/stage-arena-stage.jpg" alt="Michael Hewitt and another man squaring off with fists raised at Arena Stage" width="1200" height="900" decoding="async" loading="lazy"></figure>
-<figure><img class="r23" src="assets/img/stage-recital.jpg" alt="Michael Hewitt singing a recital beside a grand piano" width="1200" height="1800" decoding="async" loading="lazy"></figure>
+</div>
+<div class="lb-reel" role="group" aria-label="Photos from the stage" tabindex="0">
+<figure><img class="r169" loading="lazy" decoding="async" src="assets/img/stage-orchestra.jpg" alt="Michael Hewitt singing in a tuxedo with an orchestra behind him" width="920" height="517" srcset="assets/img/stage-orchestra-400.jpg 400w, assets/img/stage-orchestra.jpg 920w" sizes="(min-width: 720px) 36vw, 356px"></figure>
+<figure><img class="r45" loading="lazy" decoding="async" src="assets/img/stage-symphony-space.jpg" alt="Michael Hewitt at Symphony Space" width="800" height="1000" srcset="assets/img/stage-symphony-space-400.jpg 400w, assets/img/stage-symphony-space.jpg 800w" sizes="(min-width: 720px) 16vw, 160px"></figure>
+<figure><img class="r43" loading="lazy" decoding="async" src="assets/img/stage-arena-stage.jpg" alt="Michael Hewitt and another man squaring off with fists raised at Arena Stage" width="1200" height="900" srcset="assets/img/stage-arena-stage-400.jpg 400w, assets/img/stage-arena-stage-800.jpg 800w, assets/img/stage-arena-stage.jpg 1200w" sizes="(min-width: 720px) 27vw, 267px"></figure>
+<figure><img class="r23" loading="lazy" decoding="async" src="assets/img/stage-recital.jpg" alt="Michael Hewitt singing a recital beside a grand piano" width="1200" height="1800" srcset="assets/img/stage-recital-400.jpg 400w, assets/img/stage-recital-800.jpg 800w, assets/img/stage-recital.jpg 1200w" sizes="(min-width: 720px) 14vw, 134px"></figure>
 </div>
 </div>
 </section>
 
-<section id="coach" class="q4-sec" aria-labelledby="coach-h">
-<div class="q4-secin">
-<div class="q4-aside">
-<h2 id="coach-h" class="q4-h2">I coach</h2>
-<figure class="q4-photo"><img src="assets/img/coach-speaking.jpg" alt="Michael Hewitt speaking at a workshop, with “who you are” on the slide behind him" style="object-position: 40% 20%;" width="701" height="876" decoding="async" loading="lazy"></figure>
-</div>
-<div class="q4-body">
+<section id="coach" class="lb-sec" aria-labelledby="coach-h">
+<div class="lb-secin">
+<h2 id="coach-h" class="lb-h2">I coach</h2>
+<div class="lb-grid">
+<figure class="lb-aside"><img loading="lazy" decoding="async" src="assets/img/coach-speaking.jpg" alt="Michael Hewitt speaking at a workshop, with “who you are” on the slide behind him" style="object-position: 40% 20%;" width="701" height="876" srcset="assets/img/coach-speaking-400.jpg 400w, assets/img/coach-speaking.jpg 701w" sizes="(min-width: 960px) 31vw, (min-width: 560px) 520px, 100vw"></figure>
+<div class="lb-body">
 
-<div class="q4-block">
-<hgroup class="q4-hg">
-<h3 class="q4-h3">Command a Room</h3>
-<p class="q4-what">Executive voice coaching (effectively voice, public speaking, communication, and executive coaching, holistically applied)</p>
+<div class="lb-block">
+<hgroup class="lb-hg">
+<h3 class="lb-h3">Command a Room</h3>
+<p class="lb-what">Executive voice coaching (effectively voice, public speaking, communication, and executive coaching, holistically applied)</p>
 </hgroup>
-<p class="q4-quote">Your voice tells the world <span class="nb">who you are.</span></p>
+<p class="lb-quote">Your voice tells the world <span class="nb">who you are.</span></p>
 <p><a href="https://www.commandaroom.com">commandaroom.com</a></p>
 </div>
 
-<div class="q4-block">
-<hgroup class="q4-hg">
-<h3 class="q4-h3">Statue Jacked</h3>
-<p class="q4-what">Fitness, nutrition, and lifestyle coaching</p>
+<div class="lb-block">
+<hgroup class="lb-hg">
+<h3 class="lb-h3">Statue Jacked</h3>
+<p class="lb-what">Fitness, nutrition, and lifestyle coaching</p>
 </hgroup>
-<p class="q4-quote">An awesome body should complement your life, <span class="nb">not run it.</span></p>
-<ul class="q4-list">
-<li><a href="https://youtu.be/SyUf_IvxZPE"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Fitness and nutrition tactics, strategies, and perspectives you can implement right now</span></span></a></li>
+<p class="lb-quote">An awesome body should complement your life, <span class="nb">not run it.</span></p>
+<ul class="lb-list">
+<li><a href="https://youtu.be/SyUf_IvxZPE"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Fitness and nutrition tactics, strategies, and perspectives you can implement right now</span></span></a></li>
 </ul>
-<figure class="q4-proof">
-<div class="q4-pair">
-<div><img src="assets/img/trevor-before.jpg" alt="Trevor M. before" width="610" height="762" decoding="async" loading="lazy"><p class="q4-cap">Before</p></div>
-<div><img src="assets/img/trevor-after.jpg" alt="Trevor M. about 12 weeks later" width="609" height="761" decoding="async" loading="lazy"><p class="q4-cap">After, about 12 weeks</p></div>
+<figure class="lb-proof">
+<div class="lb-pair">
+<div><img loading="lazy" decoding="async" src="assets/img/trevor-before.jpg" alt="Trevor M. before" width="610" height="762" srcset="assets/img/trevor-before-400.jpg 400w, assets/img/trevor-before.jpg 610w" sizes="(min-width: 720px) 196px, 45vw"><p class="lb-cap">Before</p></div>
+<div><img loading="lazy" decoding="async" src="assets/img/trevor-after.jpg" alt="Trevor M. about 12 weeks later" width="609" height="761" srcset="assets/img/trevor-after-400.jpg 400w, assets/img/trevor-after.jpg 609w" sizes="(min-width: 720px) 196px, 45vw"><p class="lb-cap">After, about 12 weeks</p></div>
 </div>
-<blockquote class="q4-tq">“Approximately 12 weeks, counting macros, intermittent fasting, and consistent strength training. I’ve never felt so good, had so much energy OR been singing so consistently well… The man knows his stuff.”</blockquote>
-<figcaption class="q4-who">Trevor M., on Instagram</figcaption>
+<blockquote class="lb-tq">“Approximately 12 weeks, counting macros, intermittent fasting, and consistent strength training. I’ve never felt so good, had so much energy OR been singing so consistently well… The man knows his stuff.”</blockquote>
+<figcaption class="lb-who">Trevor M., on Instagram</figcaption>
 </figure>
-<p class="q4-vidsh">More clients, on video</p>
-<ul class="q4-list is-cells">
-<li><a href="https://youtu.be/wV7NYjUIVYk"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Danny G.</span><span class="q4-l2">50+ pounds down in 16 weeks</span></span></a></li>
-<li><a href="https://youtu.be/gQP0529jxvc"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Michael K.</span><span class="q4-l2">50 pounds down in 3 months</span></span></a></li>
-<li><a href="https://youtu.be/4dQEZnXpRuI"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Chris K.</span><span class="q4-l2">40 pounds down</span></span></a></li>
-<li><a href="https://youtu.be/KE0xQuiYTew"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Phil S.</span></span></a></li>
-<li><a href="https://youtu.be/foJfilw6ous"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Mike D.</span></span></a></li>
-<li><a href="https://www.youtube.com/shorts/0YlemGQDsTo"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">Michael F.</span></span></a></li>
+<p class="lb-label">More clients, on video</p>
+<ul class="lb-list is-cells">
+<li><a href="https://youtu.be/wV7NYjUIVYk"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Danny G.</span><span class="lb-l2">50+ pounds down in 16 weeks</span></span></a></li>
+<li><a href="https://youtu.be/gQP0529jxvc"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Michael K.</span><span class="lb-l2">50 pounds down in 3 months</span></span></a></li>
+<li><a href="https://youtu.be/4dQEZnXpRuI"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Chris K.</span><span class="lb-l2">40 pounds down</span></span></a></li>
+<li><a href="https://youtu.be/KE0xQuiYTew"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Phil S.</span></span></a></li>
+<li><a href="https://youtu.be/foJfilw6ous"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Mike D.</span></span></a></li>
+<li><a href="https://www.youtube.com/shorts/0YlemGQDsTo"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">Michael F.</span></span></a></li>
 </ul>
-<p class="q4-vidsh">Credentials, if results aren’t enough</p>
-<ul class="q4-creds">
+<p class="lb-label">Credentials, if results aren’t enough</p>
+<ul class="lb-creds">
 <li>StrongFirst Elite Instructor, 2020–2023 (all four certifications held concurrently)</li>
 <li>Precision Nutrition Level 2 Master Health Coach</li>
 </ul>
 </div>
 
-<div class="q4-block">
-<h3 class="q4-h3">Workshops and talks</h3>
-<div class="q4-workpair">
-<img src="assets/img/workshop-teaching.jpg" alt="Michael Hewitt teaching a workshop" width="768" height="960" decoding="async" loading="lazy">
-<img src="assets/img/workshop-group.jpg" alt="Michael Hewitt with workshop participants in front of a projection screen" width="1024" height="576" decoding="async" loading="lazy">
+<div class="lb-block">
+<h3 class="lb-h3">Workshops and talks</h3>
+<div class="lb-workpair">
+<img loading="lazy" decoding="async" src="assets/img/workshop-teaching.jpg" alt="Michael Hewitt teaching a workshop" width="768" height="960" srcset="assets/img/workshop-teaching-400.jpg 400w, assets/img/workshop-teaching.jpg 768w" sizes="(min-width: 960px) 16vw, 30vw">
+<img loading="lazy" decoding="async" src="assets/img/workshop-group.jpg" alt="Michael Hewitt with workshop participants in front of a projection screen" width="1024" height="576" srcset="assets/img/workshop-group-400.jpg 400w, assets/img/workshop-group-800.jpg 800w, assets/img/workshop-group.jpg 1024w" sizes="(min-width: 960px) 36vw, 66vw">
 </div>
 <p><a href="mailto:michael@michaelhewitt.com?subject=Workshops%20and%20talks">Email about a workshop</a></p>
 </div>
 
 </div>
 </div>
+</div>
 </section>
 
-<section id="create" class="q4-sec" aria-labelledby="create-h">
-<div class="q4-secin">
-<div class="q4-aside">
-<h2 id="create-h" class="q4-h2">I create</h2>
-<figure class="q4-photo is-small"><img src="assets/img/studio-portrait.jpg" alt="Black-and-white studio portrait of Michael Hewitt in a dark suit and turtleneck" style="object-position: 50% 5%;" width="1067" height="1600" decoding="async" loading="lazy"></figure>
-</div>
-<div class="q4-body">
-<p class="q4-statement">My primary creative project has been and continues to be myself, becoming the man I admire and offering him to the world. Anything else I create is downstream of that aim.</p>
+<section id="create" class="lb-sec" aria-labelledby="create-h">
+<div class="lb-secin">
+<h2 id="create-h" class="lb-h2">I create</h2>
+<div class="lb-grid">
+<figure class="lb-aside"><img loading="lazy" decoding="async" src="assets/img/arthurs-seat.jpg" alt="Michael Hewitt at sunset on Arthur’s Seat, Edinburgh" style="object-position: 50% 30%;" width="1000" height="1333" srcset="assets/img/arthurs-seat-400.jpg 400w, assets/img/arthurs-seat-800.jpg 800w, assets/img/arthurs-seat.jpg 1000w" sizes="(min-width: 960px) 31vw, (min-width: 560px) 520px, 100vw"></figure>
+<div class="lb-body">
+<p class="lb-statement">My primary creative project has been and continues to be myself, becoming the man I admire and offering him to the world. Anything else I create is downstream of that aim.</p>
 <p>In 2015, I interviewed one of my professors who had recently co-authored a book on creativity. This interview changed my perspective on creativity forever, exposing me to the idea that creativity was anything that’s within you that you bring forth.</p>
-<ul class="q4-list is-gap">
-<li><a href="https://michaelhewitt.substack.com/p/montone-redux"><span class="q4-play" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 9.5L9.5 2.5M4 2.5H9.5V8" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></span><span class="q4-lt"><span class="q4-l1">Breaking the Chains of Monotone</span><span class="q4-l2">Monotone isn’t what you think it is. And it’s totally fixable.</span></span></a></li>
-<li><a href="https://michaelhewitt.substack.com/p/how-to-be-present"><span class="q4-play" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 9.5L9.5 2.5M4 2.5H9.5V8" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></span><span class="q4-lt"><span class="q4-l1">How To Be Present</span><span class="q4-l2">Presence is the prerequisite to service.</span></span></a></li>
-<li><a href="https://podcasts.apple.com/us/podcast/the-sound-of-leadership-self-actualize-through/id1725026646"><span class="q4-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="q4-lt"><span class="q4-l1">The Sound of Leadership</span><span class="q4-l2">Podcast</span></span></a></li>
+<ul class="lb-list is-gap">
+<li><a href="https://michaelhewitt.substack.com/p/montone-redux"><span class="lb-play" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 9.5L9.5 2.5M4 2.5H9.5V8" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></span><span class="lb-lt"><span class="lb-l1">Breaking the Chains of Monotone</span><span class="lb-l2">Monotone isn’t what you think it is. And it’s totally fixable.</span></span></a></li>
+<li><a href="https://michaelhewitt.substack.com/p/how-to-be-present"><span class="lb-play" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 9.5L9.5 2.5M4 2.5H9.5V8" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></span><span class="lb-lt"><span class="lb-l1">How To Be Present</span><span class="lb-l2">Presence is the prerequisite to service.</span></span></a></li>
+<li><a href="https://podcasts.apple.com/us/podcast/the-sound-of-leadership-self-actualize-through/id1725026646"><span class="lb-play" aria-hidden="true"><svg width="10" height="12" viewBox="0 0 10 12"><path d="M1 0.5L9.5 6L1 11.5Z" fill="currentColor"></path></svg></span><span class="lb-lt"><span class="lb-l1">The Sound of Leadership</span><span class="lb-l2">Podcast</span></span></a></li>
 </ul>
 </div>
 </div>
+</div>
 </section>
 
-<section id="philosophy" class="q4-sec" aria-labelledby="phil-h">
-<div class="q4-secin">
-<div class="q4-aside">
-<h2 id="phil-h" class="q4-h2">Philosophy</h2>
+<section id="philosophy" class="lb-sec" aria-labelledby="phil-h">
+<div class="lb-secin">
+<h2 id="phil-h" class="lb-h2">Philosophy</h2>
+<div class="lb-grid">
+<div class="lb-body">
+<p class="lb-mission">My mission is to help people reclaim the agency they’ve lost, so they can go do what they were <span class="nb">built for.</span></p>
+<p class="lb-statement">I want to live a life of simplicity and discipline.</p>
+<p class="lb-house">What holds up a house? Pillars.</p>
+<div class="lb-pillars">
+<div class="lb-pillar"><h3 class="lb-pname">Intention</h3><p>Speak so that others will win, not so that you’re validated. Be of service or be of self.</p></div>
+<div class="lb-pillar"><h3 class="lb-pname">Creativity</h3><p>Creativity is an invitation to connect. Create from a State of Play.</p></div>
+<div class="lb-pillar"><h3 class="lb-pname">The body</h3><p>Your body is your business card. An awesome body should complement your life, not run it.</p></div>
 </div>
-<div class="q4-body">
-<p class="q4-mission">My mission is to help people reclaim the agency they’ve lost, so they can go do what they were <span class="nb">built for.</span></p>
-<p class="q4-statement">I want to live a life of simplicity and discipline.</p>
-<p class="q4-house">What holds up a house? Pillars.</p>
-<div class="q4-pillars">
-<div class="q4-pillar"><h3 class="q4-pname">Intention</h3><p>Speak so that others will win, not so that you’re validated. Be of service or be of self.</p></div>
-<div class="q4-pillar"><h3 class="q4-pname">Creativity</h3><p>Creativity is an invitation to connect. Create from a State of Play.</p></div>
-<div class="q4-pillar"><h3 class="q4-pname">The body</h3><p>Your body is your business card. An awesome body should complement your life, not run it.</p></div>
-</div>
-<h3 class="q4-h3 is-sub">Hewitt-isms</h3>
-<ul class="q4-isms">
+<h3 class="lb-h3 is-sub">Hewitt-isms</h3>
+<ul class="lb-isms">
 <li>Unlearn what’s unnatural.</li>
 <li>Stay connected to what’s possible.</li>
 <li>Clarity cuts through confusion and creates courage.</li>
@@ -364,27 +385,27 @@ html{scroll-behavior:smooth}
 <li>Excellence is fun.</li>
 <li>Elegance requires effort.</li>
 </ul>
-<h3 class="q4-h3 is-sub">Books, experiences, and resources I’ve found useful and inspiring</h3>
-<p class="q4-vidsh">Books</p>
-<ul class="q4-books">
-<li><span class="q4-bt">A Course in Miracles: Manual for Teachers</span></li>
-<li><span class="q4-bt">Musashi</span> <span class="q4-ba">by Eiji Yoshikawa</span></li>
-<li><span class="q4-bt">Shōgun</span> <span class="q4-ba">by James Clavell</span></li>
-<li><span class="q4-bt">The Years of Lyndon Johnson</span> <span class="q4-ba">by Robert Caro</span></li>
-<li><span class="q4-bt">Red Rising <span class="q4-rm">series</span></span> <span class="q4-ba">by Pierce Brown</span></li>
-<li><span class="q4-bt">The Glass Bead Game</span> <span class="q4-ba">by Hermann Hesse</span></li>
-<li><span class="q4-bt">The Second Coming of Christ</span> <span class="q4-ba">by Paramahansa Yogananda</span></li>
-<li><span class="q4-bt">Lessons in Leadership</span> <span class="q4-ba">by Rabbi Lord Jonathan Sacks</span></li>
-<li><span class="q4-bt">Torah Studies</span> <span class="q4-ba is-long">by the Lubavitcher Rebbe, adapted by Rabbi Lord Jonathan Sacks</span></li>
-<li><span class="q4-bt">The Gospel of John</span></li>
-<li><span class="q4-bt">Power vs. Force, The Eye of the I, <span class="q4-rm">and</span> I: Reality and Subjectivity</span> <span class="q4-ba">by David R. Hawkins</span></li>
-<li><span class="q4-bt">Wanting</span> <span class="q4-ba">by Luke Burgis</span></li>
-<li><span class="q4-bt">The Surrender Experiment <span class="q4-rm">and</span> The Untethered Soul</span> <span class="q4-ba">by Michael Singer</span></li>
-<li><span class="q4-bt">Duties of the Heart: Gate of Trust</span> <span class="q4-ba">by Bahya ibn Paquda</span></li>
-<li><span class="q4-bt">The Undiscovered Self</span> <span class="q4-ba">by Carl Jung</span></li>
+<h3 class="lb-h3 is-sub">Books, experiences, and resources I’ve found useful and inspiring</h3>
+<p class="lb-label">Books</p>
+<ul class="lb-books">
+<li><span class="lb-bt">A Course in Miracles: Manual for Teachers</span></li>
+<li><span class="lb-bt">Musashi</span> <span class="lb-ba">by Eiji Yoshikawa</span></li>
+<li><span class="lb-bt">Shōgun</span> <span class="lb-ba">by James Clavell</span></li>
+<li><span class="lb-bt">The Years of Lyndon Johnson</span> <span class="lb-ba">by Robert Caro</span></li>
+<li><span class="lb-bt">Red Rising <span class="lb-rm">series</span></span> <span class="lb-ba">by Pierce Brown</span></li>
+<li><span class="lb-bt">The Glass Bead Game</span> <span class="lb-ba">by Hermann Hesse</span></li>
+<li><span class="lb-bt">The Second Coming of Christ</span> <span class="lb-ba">by Paramahansa Yogananda</span></li>
+<li><span class="lb-bt">Lessons in Leadership</span> <span class="lb-ba">by Rabbi Lord Jonathan Sacks</span></li>
+<li><span class="lb-bt">Torah Studies</span> <span class="lb-ba is-long">by the Lubavitcher Rebbe, adapted by Rabbi Lord Jonathan Sacks</span></li>
+<li><span class="lb-bt">The Gospel of John</span></li>
+<li><span class="lb-bt">Power vs. Force, The Eye of the I, <span class="lb-rm">and</span> I: Reality and Subjectivity</span> <span class="lb-ba">by David R. Hawkins</span></li>
+<li><span class="lb-bt">Wanting</span> <span class="lb-ba">by Luke Burgis</span></li>
+<li><span class="lb-bt">The Surrender Experiment <span class="lb-rm">and</span> The Untethered Soul</span> <span class="lb-ba">by Michael Singer</span></li>
+<li><span class="lb-bt">Duties of the Heart: Gate of Trust</span> <span class="lb-ba">by Bahya ibn Paquda</span></li>
+<li><span class="lb-bt">The Undiscovered Self</span> <span class="lb-ba">by Carl Jung</span></li>
 </ul>
-<p class="q4-vidsh">Experiences, some of them “side quests”</p>
-<ul class="q4-useful">
+<p class="lb-label">Experiences, some of them “side quests”</p>
+<ul class="lb-useful">
 <li>Clown training with Chris Bayes</li>
 <li>S. N. Goenka Vipassana retreat</li>
 <li>EMDR</li>
@@ -392,29 +413,30 @@ html{scroll-behavior:smooth}
 </ul>
 </div>
 </div>
-</section>
-
-<figure class="q4-wide"><img src="assets/img/st-andrews.jpg" alt="Michael Hewitt at a railing above the sea at St Andrews" width="2400" height="1000" decoding="async" loading="lazy"></figure>
-
-<section class="q4-band" aria-label="Manifesto">
-<div class="q4-bandin">
-<p class="q4-manifesto">It is not enough to ask yourself better questions. It is not enough to answer them courageously. They’re only as valuable as what you do with the answer. You have one life. Consider the best case scenario as much as the worst. Your good old days are right now. What would you do if you knew you could not fail? If you don’t go for that, you’ll regret it on your deathbed. Take more shots. Become who you needed but did not have. Give that person to the world. You can be of service or be of self, but you can’t be both. Choose. Go.</p>
 </div>
 </section>
 
-<footer id="contact" class="q4-sec" aria-labelledby="contact-h">
-<div class="q4-secin">
-<div class="q4-aside">
-<h2 id="contact-h" class="q4-h2">Contact</h2>
+<figure class="lb-wide"><img loading="lazy" decoding="async" src="assets/img/st-andrews.jpg" alt="Michael Hewitt at a railing above the sea at St Andrews" width="2400" height="1000" srcset="assets/img/st-andrews-400.jpg 400w, assets/img/st-andrews-800.jpg 800w, assets/img/st-andrews-1400.jpg 1400w, assets/img/st-andrews.jpg 2400w" sizes="100vw"></figure>
+
+<section class="lb-band" aria-label="Manifesto">
+<div class="lb-bandin">
+<p class="lb-manifesto">It is not enough to ask yourself better questions. It is not enough to answer them courageously. They’re only as valuable as what you do with the answer. You have one life. Consider the best case scenario as much as the worst. Your good old days are right now. What would you do if you knew you could not fail? If you don’t go for that, you’ll regret it on your deathbed. Take more shots. Become who you needed but did not have. Give that person to the world. You can be of service or be of self, but you can’t be both. Choose. Go.</p>
 </div>
-<div class="q4-body">
-<p class="q4-email"><a href="mailto:michael@michaelhewitt.com">michael@michaelhewitt.com</a></p>
-<ul class="q4-elsewhere" aria-label="Elsewhere"><li><a href="https://www.commandaroom.com">Command a Room</a></li><li><a href="https://podcasts.apple.com/us/podcast/the-sound-of-leadership-self-actualize-through/id1725026646">Podcast</a></li><li><a href="https://michaelhewitt.substack.com">Substack</a></li><li><a href="https://www.instagram.com/michaelhewitt23/">Instagram</a></li><li><a href="https://www.linkedin.com/in/michaelhewitt23/">LinkedIn</a></li><li><a href="https://x.com/MichaelHewitt23">X</a></li></ul>
-<div class="q4-signrow">
-<figure class="q4-laugh"><img src="assets/img/contact-laugh.jpg" alt="Michael Hewitt laughing" width="540" height="675" decoding="async" loading="lazy"></figure>
-<p class="q4-signoff">It’s not that serious.</p>
+</section>
+
+<footer id="contact" class="lb-sec">
+<div class="lb-secin">
+<h2 id="contact-h" class="lb-h2">Contact</h2>
+<div class="lb-grid">
+<div class="lb-body">
+<p class="lb-email"><a href="mailto:michael@michaelhewitt.com">michael@michaelhewitt.com</a></p>
+<ul class="lb-elsewhere" aria-label="Elsewhere"><li><a href="https://www.commandaroom.com">Command a Room</a></li><li><a href="https://podcasts.apple.com/us/podcast/the-sound-of-leadership-self-actualize-through/id1725026646">Podcast</a></li><li><a href="https://michaelhewitt.substack.com">Substack</a></li><li><a href="https://www.instagram.com/michaelhewitt23/">Instagram</a></li><li><a href="https://www.linkedin.com/in/michaelhewitt23/">LinkedIn</a></li><li><a href="https://x.com/MichaelHewitt23">X</a></li></ul>
+<div class="lb-signrow">
+<figure class="lb-laugh"><img loading="lazy" decoding="async" src="assets/img/contact-laugh.jpg" alt="Michael Hewitt laughing" width="540" height="675" srcset="assets/img/contact-laugh-400.jpg 400w, assets/img/contact-laugh.jpg 540w" sizes="148px"></figure>
+<p class="lb-signoff">It’s not that serious.</p>
 </div>
-<div class="q4-fine"><p>© 2026 Michael Hewitt</p><a href="#top">Back to top</a></div>
+<div class="lb-fine"><p>© 2026 Michael Hewitt</p><a href="#top">Back to top</a></div>
+</div>
 </div>
 </div>
 </footer>
