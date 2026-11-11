@@ -32,10 +32,10 @@
 @font-face{font-family:'Barlow';font-style:italic;font-weight:500;font-display:swap;src:url('assets/fonts/barlow-500-italic.woff2') format('woff2')}
 body{margin:0;background:#FBECD6}
 html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
-.lb{--paper:#FBECD6;--ink:#0203D7;--graphite:#0203D7;--rule:rgba(2,3,215,0.26);--blue:#0203D7;--sans:'Barlow','Helvetica Neue',Arial,system-ui,sans-serif;--display:'Bebas Neue','Arial Narrow',Impact,sans-serif;--serif:var(--display);--cw:0.033em;--tr:0.115em;--tr-d:0.05em;--gutter:clamp(20px,4vw,56px);--maxw:1360px;--headh:57px;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+.lb{--paper:#FBECD6;--ink:#0203D7;--text:#000000;--graphite:#514B43;--rule:rgba(2,3,215,0.26);--blue:#0203D7;--sans:'Barlow','Helvetica Neue',Arial,system-ui,sans-serif;--display:'Bebas Neue','Arial Narrow',Impact,sans-serif;--serif:var(--display);--cw:0.033em;--tr:0.115em;--tr-d:0.05em;--gutter:clamp(20px,4vw,56px);--maxw:1360px;--headh:57px;background:var(--paper);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
 :where(.lb) :where(p,ul,ol,h1,h2,h3,figure,blockquote,hgroup){margin:0}
 :where(.lb) :where(ul,ol){list-style:none;padding:0}
-.lb a{color:inherit;text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:0.22em;transition:color 0.15s ease}
+.lb a{color:var(--ink);text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:0.22em;transition:color 0.15s ease}
 .lb a:hover,.lb a:active{color:var(--blue)}
 .lb a,.lb summary{-webkit-tap-highlight-color:transparent}
 .lb p > a:only-child{display:inline-block;padding:11px 0;margin:-11px 0}
@@ -139,10 +139,6 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 
 .lb-statement{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(26px,2.5vw,34px);line-height:1.25;text-wrap:pretty}
 .lb-mission{font-family:var(--serif);font-weight:400;font-size:clamp(32px,3.4vw,50px);line-height:1.1;letter-spacing:-0.01em;text-wrap:balance}
-.lb-house{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(21px,1.9vw,25px);color:var(--graphite)}
-.lb-pillars{border-top:2px solid var(--ink)}
-.lb-pillar{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;padding:16px 0 18px;border-bottom:1px solid var(--rule)}
-.lb-pname{font-family:var(--serif);font-weight:400;font-size:clamp(25px,2.1vw,30px);line-height:1.15}
 .lb-h3.is-sub{padding-top:24px}
 .lb-isms{columns:1;column-gap:40px}
 .lb-isms li{break-inside:avoid}
@@ -211,7 +207,6 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 .lb-list:not(.is-cells) .lb-l1{padding-right:24px}
 .lb-list:not(.is-cells) .lb-l2{grid-column:3;grid-row:1;font-size:15px;line-height:1.35}
 .lb-list:not(.is-cells) .lb-lt:not(:has(.lb-l2)) .lb-l1{grid-column:2 / -1}
-.lb-pillar{grid-template-columns:minmax(0,1fr) minmax(0,2.4fr);gap:24px;align-items:baseline}
 }
 @media (min-width: 960px){
 .lb-headin{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
@@ -236,9 +231,12 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 
 /* blue card (November 10): my card's blue ink on its cream, its condensed caps at the card's weight and tracking, slanted caps for the lines I stand on. My name sits where the card says Command a Room. */
 .lb{font-weight:500}
-.lb .lb-mark,.lb .lb-nav a,.lb-quest,.lb .lb-q,.lb-h2,.lb-h3,.lb-quote,.lb-label,.lb-statement,.lb-mission,.lb-house,.lb-pname,.lb-isms li,.lb-manifesto,.lb-email,.lb .lb-elsewhere a,.lb-signoff,.mh-cv-h{font-family:var(--display);font-weight:400;font-style:normal;text-transform:uppercase;-webkit-text-stroke-width:var(--cw)}
+.lb .lb-mark,.lb .lb-nav a,.lb-quest,.lb .lb-q,.lb-h2,.lb-h3,.lb-quote,.lb-label,.lb-statement,.lb-mission,.lb-isms li,.lb-manifesto,.lb-email,.lb .lb-elsewhere a,.lb-signoff,.mh-cv-h{font-family:var(--display);font-weight:400;font-style:normal;text-transform:uppercase;-webkit-text-stroke-width:var(--cw)}
+/* three levels of text (November 11): the card's blue for titles, labels, links, controls, and the card's own lines; black for what I say, in lettering or in sentences; a soft black for captions and fine print. On the blue band, lettering stays the card's cream. */
+.lb .lb-mark,.lb .lb-nav a,.lb .lb-q,.lb-h2,.lb-h3,.lb-quote,.lb-label,.lb-mission,.lb-email,.lb .lb-elsewhere a,.lb-signoff,.mh-cv-h,.lb-resume summary{color:var(--ink)}
+.lb-quest,.lb-statement,.lb-isms li{color:var(--text)}
 /* slanted caps, like the tagline on the back of the card */
-.lb-quest,.lb-quote,.lb-statement,.lb-house,.lb-isms li,.lb-signoff{font-style:italic}
+.lb-quest,.lb-quote,.lb-statement,.lb-isms li,.lb-signoff{font-style:italic}
 .lb .lb-mark{font-size:24px;letter-spacing:var(--tr)}
 .lb .lb-nav a{font-size:17px;font-weight:400;letter-spacing:var(--tr)}
 .lb-quest{font-size:clamp(30px,3.3vw,48px);line-height:1.04;letter-spacing:var(--tr-d);max-width:17em}
@@ -248,8 +246,6 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 .lb-quote{font-size:clamp(28px,2.6vw,37px);line-height:1.08;letter-spacing:var(--tr-d)}
 .lb-statement{font-size:clamp(26px,2.5vw,34px);line-height:1.1;letter-spacing:var(--tr-d)}
 .lb-mission{font-size:clamp(36px,3.9vw,58px);line-height:0.98;letter-spacing:var(--tr-d)}
-.lb-house{font-size:clamp(22px,2vw,26px);letter-spacing:var(--tr-d)}
-.lb-pname{font-size:clamp(28px,2.4vw,34px);line-height:1.05;letter-spacing:var(--tr-d)}
 .lb-isms li{font-size:clamp(23px,2vw,27px);line-height:1.12;letter-spacing:var(--tr-d);padding-bottom:12px}
 .lb-ism-note{font-weight:500;text-transform:none;letter-spacing:0;-webkit-text-stroke-width:0}
 .lb-manifesto{max-width:26em;font-size:clamp(29px,3.9vw,58px);line-height:1;letter-spacing:var(--tr-d)}
@@ -261,7 +257,7 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 /* long quotes and book titles stay in lowercase, in the body face */
 .lb-tq,.lb-bt{font-family:var(--sans);font-style:italic;font-weight:500}
 .lb-tq{font-size:clamp(19px,1.6vw,21px);line-height:1.5}
-/* everything is one ink now, so hover shows in the underline instead of a color change */
+/* links and lettering are already the card's blue, so hover shows in the underline instead of a color change */
 .lb a:hover,.lb a:active{text-decoration-thickness:2px}
 .lb .lb-q:hover{text-decoration-line:underline;text-decoration-thickness:0.05em;text-underline-offset:0.08em}
 .lb-ism summary:hover{text-decoration:underline;text-underline-offset:0.22em}
@@ -422,12 +418,6 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 <div class="lb-body">
 <p class="lb-mission">My mission is to help people reclaim the agency they’ve lost, so they can go do what they were <span class="nb">built for.</span></p>
 <p class="lb-statement">I want to live a life of simplicity and discipline.</p>
-<p class="lb-house">What holds up a house? Pillars.</p>
-<div class="lb-pillars">
-<div class="lb-pillar"><h3 class="lb-pname">Intention</h3><p>Speak so that others will win, not so that you’re validated. Be of service or be of self.</p></div>
-<div class="lb-pillar"><h3 class="lb-pname">Creativity</h3><p>Creativity is an invitation to connect. Create from a State of Play.</p></div>
-<div class="lb-pillar"><h3 class="lb-pname">The body</h3><p>Your body is your business card. An awesome body should complement your life, not run it.</p></div>
-</div>
 <h3 class="lb-h3 is-sub">Hewitt-isms</h3>
 <ul class="lb-isms">
 <li>Unlearn what’s unnatural.</li>
@@ -439,6 +429,10 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 <li>Elegance requires effort.</li>
 <li>What you hold, you cannot feel.</li>
 <li>Perfect reps only.</li>
+<li>Creativity is an invitation to connect.</li>
+<li>Create from a State of Play.</li>
+<li>Your body is your business card.</li>
+<li>An awesome body should complement your life, not run it.</li>
 </ul>
 <h3 class="lb-h3 is-sub">Books, experiences, and resources I’ve found useful and inspiring</h3>
 <p class="lb-label">Books</p>
@@ -472,6 +466,7 @@ html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100
 <li>Chassidus</li>
 <li>Season 2 of NBC’s Titan Games with Dwayne <span class="nb">“The Rock”</span> Johnson</li>
 <li>Alcohol (not <span class="nb">a drop</span> for <span class="nb">9.5 years</span>, <span class="nb-wide"><span class="nb">Sep ’16 –</span> <span class="nb">Feb ’26</span></span>)</li>
+<li><span class="nb">Full-cycle</span> AE at both public (hired <span class="nb">pre-IPO)</span> and <span class="nb">VC-backed</span> early stage (employee <span class="nb">#36)</span> cybersecurity companies</li>
 </ul>
 </div>
 </div>
